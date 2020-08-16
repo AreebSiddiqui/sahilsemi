@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e0a976d7/
+__module_depends	section-a/q1/q1.mod.c	/^static const char __module_depends[]$/;"	v	typeref:typename:const char[]__used	file:
+__this_module	section-a/q1/q1.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+cleanup_module	section-a/q1/q1.c	/^void cleanup_module() {$/;"	f	typeref:typename:void
+distance_covered	section-c/q10.c	/^float distance_covered(float u, float v, float d) {$/;"	f	typeref:typename:float
+init_module	section-a/q1/q1.c	/^int init_module(void) {$/;"	f	typeref:typename:int
+main	section-c/q10.c	/^int main() {$/;"	f	typeref:typename:int
+take_input	section-c/q10.c	/^int take_input () {$/;"	f	typeref:typename:int
+time_covered	section-c/q10.c	/^float time_covered (float u, float v, float d) {$/;"	f	typeref:typename:float
