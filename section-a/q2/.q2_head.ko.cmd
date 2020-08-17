@@ -1,0 +1,1 @@
+cmd_/home/sahil/@sahilsemi/sahilsemi/section-a/q2/q2_head.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/sahil/@sahilsemi/sahilsemi/section-a/q2/q2_head.ko /home/sahil/@sahilsemi/sahilsemi/section-a/q2/q2_head.o /home/sahil/@sahilsemi/sahilsemi/section-a/q2/q2_head.mod.o ;  true
