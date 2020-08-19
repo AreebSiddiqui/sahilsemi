@@ -9,15 +9,14 @@ struct House {
 	struct list_head list; /* kernel's list structure */
 };
 struct House *ahouse; /* loop counter */
-
 static LIST_HEAD(houselist);
 
+
 void print_node(struct House *house) {
-	printk(KERN_ALERT "area is %d cm^2 & color is %s", house->area, house->color);
+	printk(KERN_ALERT "House color is %s & area is %d", house->color, house->area);
 }
 
-void add_in_list(struct House *house, int param_area, char *param_color) {
-	
+void add_in_list(struct House *house, int param_area, char *param_color) {	
 	house->area = param_area;
 	strcpy(house->color, param_color);
 	INIT_LIST_HEAD(&house->list);
@@ -25,30 +24,44 @@ void add_in_list(struct House *house, int param_area, char *param_color) {
 	// print_node(house);
 }
 
+void module_a_get_house5(int *val) {
+	
+	//For getting pointer to house_1
+	struct House *houseptr;
+	houseptr=container_of(val, struct House, area);
+
+	//Initialize a counter
+	int count = 4; //10
+	
+	//set a pointer to house_1 address 
+	// OR set a pointer to pointer which points to house one i.e houseptr)
+	struct House *pointer = houseptr;
+	
+	//Traversing the list
+	list_for_each_entry(pointer, &houselist, list){
+	count--;
+	if (count == 1) //4
+	print_node(pointer);
+}
+}
 
 //Starting Module
 static int __init start(void) {
 	
 	struct House *house_1 = kzalloc(sizeof(struct House), GFP_KERNEL);
 	add_in_list(house_1, 1, "red"); 
+	// int *val = &house_1->area;	
 
 	struct House *house_2 = kzalloc(sizeof(struct House), GFP_KERNEL);
 	add_in_list(house_2, 2, "blue");
 
 	struct House *house_3 = kzalloc(sizeof(struct House), GFP_KERNEL);
-	add_in_list(house_3, 3, "green");
+	add_in_list(house_3, 3, "green");	//For getting pointer to house_1
 
 	struct House *house_4 = kzalloc(sizeof(struct House), GFP_KERNEL);
-	add_in_list(house_4, 4, "red");
-
-	int blue_car_num = 0;
-	/* 'list' is the name of the list_head struct in our data structure */
-	list_for_each_entry(ahouse, &houselist, list){
-	if(ahouse == 3)
-	blue_car_num++;
-	}
-	printk(KERN_ALERT "%d", blue_car_num);
+	add_in_list(house_4, 4, "pink");
 	
+	module_a_get_house5(&house_1->area);
 	return 0;
 }
 
@@ -59,10 +72,3 @@ void __exit q3_exit(void) {
 
 module_init(start);
 module_exit(q3_exit);
-
-
-
-
-
-
-
