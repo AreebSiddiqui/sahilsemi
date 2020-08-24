@@ -31,7 +31,7 @@ void module_a_get_house5(int *val) {
 	houseptr=container_of(val, struct House, area);
 
 	//Initialize a counter
-	int count = 4; //10
+	int count = 10; 
 	
 	//set a pointer to house_1 address 
 	// OR set a pointer to pointer which points to house one i.e houseptr)
@@ -40,7 +40,7 @@ void module_a_get_house5(int *val) {
 	//Traversing the list
 	list_for_each_entry(pointer, &houselist, list){
 	count--;
-	if (count == 1) //4
+	// if (count == 4) 
 	print_node(pointer);
 }
 }
@@ -58,6 +58,14 @@ int module_c_cal_all_area(int *val) {
 	return total_area;
 }
 
+int module_d_insert_in_between(struct House *house, struct House *new_house) {
+	INIT_LIST_HEAD(&new_house->list);
+	list_add(&new_house->list , &house->list);
+
+	new_house->area=11;
+	strcpy(house->color, "blue");
+
+}
 
 //Starting Module
 static int __init start(void) {
@@ -74,15 +82,36 @@ static int __init start(void) {
 	struct House *house_4 = kzalloc(sizeof(struct House), GFP_KERNEL);
 	add_in_list(house_4, 4, "pink");
 
+	struct House *house_5 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_5, 5, "purple");
+
+	struct House *house_6 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_6, 6, "grey");
+
+	struct House *house_7 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_7, 7, "cyan");
+
+	struct House *house_8 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_8, 8, "yellow");
+
+	struct House *house_9 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_9, 9, "orange");
+
+	struct House *house_10 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	add_in_list(house_10, 10, "brown");
+
+	struct House *house_11 = kzalloc(sizeof(struct House), GFP_KERNEL);
+	// add_in_list(house_11, 11, "purp-grey");
+
 //Function calling	// int *val = &house_1->area;//ref pg# 44
-	
-	module_a_get_house5(&house_1->area);
-	int result = module_c_cal_all_area(&house_1->area);
-	printk(KERN_ALERT "Total area is %d", result);
-	
+		// int result = module_c_cal_all_area(&house_1->area);
+		// printk(KERN_ALERT "Total area is %d", result);
+		// list_del(&house_8->list);
+		module_d_insert_in_between(house_5,house_11);
+		module_a_get_house5(&house_1->area);
+
 	return 0;
 }
-
 
 void __exit q3_exit(void) {
 	printk(KERN_ALERT "exited q3");

@@ -1,4 +1,4 @@
-cmd_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := gcc -Wp,-MD,/home/sahil/sahilsemi/section-a/q3/.q3.mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror-implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-int-in-bool-context -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DKBUILD_BASENAME='"q3.mod"' -DKBUILD_MODNAME='"q3"' -DMODULE  -c -o /home/sahil/sahilsemi/section-a/q3/q3.mod.o /home/sahil/sahilsemi/section-a/q3/q3.mod.c
+cmd_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := gcc -Wp,-MD,/home/sahil/sahilsemi/section-a/q3/.q3.mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init  -DMODULE  -DKBUILD_BASENAME='"q3.mod"' -DKBUILD_MODNAME='"q3"' -c -o /home/sahil/sahilsemi/section-a/q3/q3.mod.o /home/sahil/sahilsemi/section-a/q3/q3.mod.c
 
 source_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := /home/sahil/sahilsemi/section-a/q3/q3.mod.c
 
@@ -12,8 +12,8 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/compiler_types.h \
     $(wildcard include/config/have/arch/compiler/h.h) \
     $(wildcard include/config/enable/must/check.h) \
-    $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
+    $(wildcard include/config/cc/has/asm/inline.h) \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
@@ -34,12 +34,11 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/types.h \
     $(wildcard include/config/have/uid16.h) \
     $(wildcard include/config/uid16.h) \
-    $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
   include/uapi/linux/types.h \
-  arch/x86/include/uapi/asm/types.h \
+  arch/x86/include/generated/uapi/asm/types.h \
   include/uapi/asm-generic/types.h \
   include/asm-generic/int-ll64.h \
   include/uapi/asm-generic/int-ll64.h \
@@ -82,24 +81,26 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/arch/has/refcount.h) \
-    $(wildcard include/config/lock/down/kernel.h) \
-    $(wildcard include/config/lock/down/mandatory.h) \
     $(wildcard include/config/panic/timeout.h) \
     $(wildcard include/config/tracing.h) \
     $(wildcard include/config/ftrace/mcount/record.h) \
   /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
   include/linux/linkage.h \
   include/linux/export.h \
-    $(wildcard include/config/modules.h) \
     $(wildcard include/config/modversions.h) \
     $(wildcard include/config/module/rel/crcs.h) \
     $(wildcard include/config/have/arch/prel32/relocations.h) \
+    $(wildcard include/config/modules.h) \
     $(wildcard include/config/trim/unused/ksyms.h) \
     $(wildcard include/config/unused/symbols.h) \
   arch/x86/include/asm/linkage.h \
     $(wildcard include/config/x86/alignment/16.h) \
   include/linux/bitops.h \
   include/linux/bits.h \
+  include/linux/const.h \
+  include/uapi/linux/const.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/rmwcc.h \
@@ -125,6 +126,7 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/x86/5level.h) \
     $(wildcard include/config/page/table/isolation.h) \
   include/asm-generic/bitops/const_hweight.h \
+  include/asm-generic/bitops-instrumented.h \
   include/asm-generic/bitops/le.h \
   arch/x86/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
@@ -165,14 +167,14 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/have/arch/jump/label/relative.h) \
   arch/x86/include/asm/jump_label.h \
   include/linux/build_bug.h \
-  include/linux/restart_block.h \
-  include/linux/time64.h \
-    $(wildcard include/config/64bit/time.h) \
-  include/linux/math64.h \
-    $(wildcard include/config/arch/supports/int128.h) \
   arch/x86/include/asm/div64.h \
   include/asm-generic/div64.h \
+  include/linux/restart_block.h \
+  include/linux/time64.h \
+  include/linux/math64.h \
+    $(wildcard include/config/arch/supports/int128.h) \
   include/uapi/linux/time.h \
+  include/uapi/linux/time_types.h \
   arch/x86/include/asm/current.h \
   arch/x86/include/asm/percpu.h \
     $(wildcard include/config/x86/64/smp.h) \
@@ -184,7 +186,6 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/base/small.h) \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-    $(wildcard include/config/virtualization.h) \
     $(wildcard include/config/amd/mem/encrypt.h) \
   arch/x86/include/asm/thread_info.h \
     $(wildcard include/config/vm86.h) \
@@ -194,8 +195,6 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/physical/start.h) \
     $(wildcard include/config/physical/align.h) \
     $(wildcard include/config/dynamic/physical/mask.h) \
-  include/linux/const.h \
-  include/uapi/linux/const.h \
   include/linux/mem_encrypt.h \
     $(wildcard include/config/arch/has/mem/encrypt.h) \
   arch/x86/include/asm/mem_encrypt.h \
@@ -205,7 +204,7 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/apm_bios.h \
   include/uapi/linux/apm_bios.h \
   include/uapi/linux/ioctl.h \
-  arch/x86/include/uapi/asm/ioctl.h \
+  arch/x86/include/generated/uapi/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/uapi/asm-generic/ioctl.h \
   include/linux/edd.h \
@@ -216,7 +215,6 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/x86.h) \
   include/uapi/video/edid.h \
   arch/x86/include/asm/page_64_types.h \
-    $(wildcard include/config/kasan/extra.h) \
     $(wildcard include/config/dynamic/memory/layout.h) \
     $(wildcard include/config/randomize/base.h) \
   arch/x86/include/asm/kaslr.h \
@@ -271,12 +269,11 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/paravirt/spinlocks.h) \
   include/asm-generic/qspinlock_types.h \
   include/asm-generic/qrwlock_types.h \
-  include/asm-generic/ptrace.h \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/msr.h \
     $(wildcard include/config/tracepoints.h) \
   arch/x86/include/asm/msr-index.h \
-  arch/x86/include/uapi/asm/errno.h \
+  arch/x86/include/generated/uapi/asm/errno.h \
   include/uapi/asm-generic/errno.h \
   include/uapi/asm-generic/errno-base.h \
   arch/x86/include/asm/cpumask.h \
@@ -293,16 +290,17 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   arch/x86/include/asm/string_64.h \
     $(wildcard include/config/x86/mce.h) \
     $(wildcard include/config/arch/has/uaccess/flushcache.h) \
-  arch/x86/include/uapi/asm/msr.h \
+  include/linux/atomic.h \
   arch/x86/include/asm/atomic.h \
   arch/x86/include/asm/cmpxchg.h \
   arch/x86/include/asm/cmpxchg_64.h \
   arch/x86/include/asm/atomic64_64.h \
   include/asm-generic/atomic-instrumented.h \
-  include/linux/tracepoint-defs.h \
-  include/linux/atomic.h \
+  include/linux/atomic-fallback.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic-long.h \
+  arch/x86/include/uapi/asm/msr.h \
+  include/linux/tracepoint-defs.h \
   arch/x86/include/asm/paravirt.h \
     $(wildcard include/config/debug/entry.h) \
   arch/x86/include/asm/frame.h \
@@ -330,6 +328,7 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/have/aligned/struct/page.h) \
     $(wildcard include/config/memcg.h) \
     $(wildcard include/config/userfaultfd.h) \
+    $(wildcard include/config/swap.h) \
     $(wildcard include/config/numa.h) \
     $(wildcard include/config/have/arch/compat/mmap/bases.h) \
     $(wildcard include/config/membarrier.h) \
@@ -339,7 +338,6 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/numa/balancing.h) \
     $(wildcard include/config/arch/want/batched/unmap/tlb/flush.h) \
     $(wildcard include/config/hugetlb/page.h) \
-    $(wildcard include/config/hmm.h) \
   include/linux/mm_types_task.h \
     $(wildcard include/config/split/ptlock/cpus.h) \
     $(wildcard include/config/arch/enable/split/pmd/ptlock.h) \
@@ -353,13 +351,16 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/page/poisoning/zero.h) \
   include/linux/spinlock.h \
     $(wildcard include/config/debug/spinlock.h) \
-    $(wildcard include/config/preempt.h) \
+    $(wildcard include/config/preemption.h) \
   include/linux/preempt.h \
     $(wildcard include/config/preempt/count.h) \
     $(wildcard include/config/trace/preempt/toggle.h) \
     $(wildcard include/config/preempt/notifiers.h) \
   arch/x86/include/asm/preempt.h \
   include/linux/bottom_half.h \
+  arch/x86/include/generated/asm/mmiowb.h \
+  include/asm-generic/mmiowb.h \
+    $(wildcard include/config/mmiowb.h) \
   include/linux/spinlock_types.h \
   include/linux/lockdep.h \
     $(wildcard include/config/lockdep.h) \
@@ -371,6 +372,7 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   arch/x86/include/asm/qrwlock.h \
   include/asm-generic/qrwlock.h \
   include/linux/rwlock.h \
+    $(wildcard include/config/preempt.h) \
   include/linux/spinlock_api_smp.h \
     $(wildcard include/config/inline/spin/lock.h) \
     $(wildcard include/config/inline/spin/lock/bh.h) \
@@ -418,9 +420,8 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/rcutree.h \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/spin/on/owner.h) \
-    $(wildcard include/config/rwsem/generic/spinlock.h) \
+    $(wildcard include/config/debug/rwsems.h) \
   include/linux/osq_lock.h \
-  arch/x86/include/asm/rwsem.h \
   include/linux/completion.h \
   include/linux/wait.h \
   include/uapi/linux/wait.h \
@@ -446,23 +447,24 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/wq/watchdog.h) \
   include/linux/timer.h \
     $(wildcard include/config/debug/objects/timers.h) \
+    $(wildcard include/config/preempt/rt.h) \
     $(wildcard include/config/no/hz/common.h) \
   include/linux/ktime.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/seqlock.h \
   include/linux/time32.h \
-  include/linux/jiffies.h \
   include/linux/timex.h \
   include/uapi/linux/timex.h \
   include/uapi/linux/param.h \
-  arch/x86/include/uapi/asm/param.h \
+  arch/x86/include/generated/uapi/asm/param.h \
   include/asm-generic/param.h \
     $(wildcard include/config/hz.h) \
   include/uapi/asm-generic/param.h \
   arch/x86/include/asm/timex.h \
   arch/x86/include/asm/tsc.h \
     $(wildcard include/config/x86/tsc.h) \
+  include/linux/jiffies.h \
   include/generated/timeconst.h \
   include/linux/timekeeping.h \
   include/linux/timekeeping32.h \
@@ -507,16 +509,18 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/zone/dma32.h) \
     $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/pm/sleep.h) \
-    $(wildcard include/config/memory/isolation.h) \
-    $(wildcard include/config/compaction.h) \
+    $(wildcard include/config/contig/alloc.h) \
     $(wildcard include/config/cma.h) \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/vm.h) \
     $(wildcard include/config/debug/vm/pgflags.h) \
   include/linux/mmzone.h \
     $(wildcard include/config/force/max/zoneorder.h) \
+    $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/shuffle/page/allocator.h) \
     $(wildcard include/config/zsmalloc.h) \
     $(wildcard include/config/memory/hotplug.h) \
+    $(wildcard include/config/compaction.h) \
     $(wildcard include/config/flat/node/mem/map.h) \
     $(wildcard include/config/page/extension.h) \
     $(wildcard include/config/deferred/struct/page/init.h) \
@@ -533,6 +537,12 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
+  include/linux/page-flags.h \
+    $(wildcard include/config/arch/uses/pg/uncached.h) \
+    $(wildcard include/config/memory/failure.h) \
+    $(wildcard include/config/idle/page/tracking.h) \
+    $(wildcard include/config/thp/swap.h) \
+    $(wildcard include/config/ksm.h) \
   include/linux/memory_hotplug.h \
     $(wildcard include/config/arch/has/add/pages.h) \
     $(wildcard include/config/have/arch/nodedata/extension.h) \
@@ -599,6 +609,7 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/x86/thermal/vector.h) \
     $(wildcard include/config/x86/mce/threshold.h) \
     $(wildcard include/config/x86/mce/amd.h) \
+    $(wildcard include/config/x86/hv/callback/vector.h) \
     $(wildcard include/config/hyperv.h) \
   arch/x86/include/asm/io_apic.h \
   arch/x86/include/asm/irq_vectors.h \
@@ -606,11 +617,13 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
   include/linux/topology.h \
     $(wildcard include/config/use/percpu/numa/node/id.h) \
     $(wildcard include/config/sched/smt.h) \
-  include/linux/smp.h \
-    $(wildcard include/config/up/late/init.h) \
+  include/linux/arch_topology.h \
+    $(wildcard include/config/generic/arch/topology.h) \
   include/linux/percpu.h \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
+  include/linux/smp.h \
+    $(wildcard include/config/up/late/init.h) \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
   include/uapi/linux/sysctl.h \
@@ -636,7 +649,6 @@ deps_/home/sahil/sahilsemi/section-a/q3/q3.mod.o := \
     $(wildcard include/config/ppc64.h) \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
-  arch/x86/include/asm/error-injection.h \
   include/asm-generic/error-injection.h \
   arch/x86/include/asm/module.h \
     $(wildcard include/config/unwinder/orc.h) \
