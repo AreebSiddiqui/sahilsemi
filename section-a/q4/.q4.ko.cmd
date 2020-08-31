@@ -1,0 +1,1 @@
+cmd_/home/sahil/sahilsemi/section-a/q4/q4.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/sahil/sahilsemi/section-a/q4/q4.ko /home/sahil/sahilsemi/section-a/q4/q4.o /home/sahil/sahilsemi/section-a/q4/q4.mod.o;  true

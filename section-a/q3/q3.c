@@ -61,7 +61,6 @@ int module_c_cal_all_area(int *val) {
 int module_d_insert_in_between(struct House *house, struct House *new_house) {
 	INIT_LIST_HEAD(&new_house->list);
 	list_add(&new_house->list , &house->list);
-
 	new_house->area=11;
 	strcpy(house->color, "blue");
 
@@ -104,11 +103,11 @@ static int __init start(void) {
 	// add_in_list(house_11, 11, "purp-grey");
 
 //Function calling	// int *val = &house_1->area;//ref pg# 44
-		// int result = module_c_cal_all_area(&house_1->area);
-		// printk(KERN_ALERT "Total area is %d", result);
-		// list_del(&house_8->list);
-		module_d_insert_in_between(house_5,house_11);
 		module_a_get_house5(&house_1->area);
+		int result = module_c_cal_all_area(&house_1->area);
+		printk(KERN_ALERT "Total area is %d", result);
+		module_d_insert_in_between(house_5,house_11);
+		list_del(&house_8->list);
 
 	return 0;
 }
