@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+House	q3/q3.c	/^struct House {$/;"	s	file:
+__module_depends	q1/q1.mod.c	/^static const char __module_depends[]$/;"	v	typeref:typename:const char[]__used	file:
+__module_depends	q2/q2_head.mod.c	/^static const char __module_depends[]$/;"	v	typeref:typename:const char[]__used	file:
+__this_module	q1/q1.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	q2/q2_head.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+add_in_list	q3/q3.c	/^void add_in_list(struct House *house, int param_area, char *param_color) {	$/;"	f	typeref:typename:void
+ahouse	q3/q3.c	/^struct House *ahouse; \/* loop counter *\/$/;"	v	typeref:struct:House *
+area	q3/q3.c	/^	int area;$/;"	m	struct:House	typeref:typename:int	file:
+cleanup_module	q1/q1.c	/^void cleanup_module() {$/;"	f	typeref:typename:void
+color	q3/q3.c	/^	char color[20];$/;"	m	struct:House	typeref:typename:char[20]	file:
+fake_eth_init	q4/q4.c	/^int fake_eth_init(struct net_device *dev)$/;"	f	typeref:typename:int
+fake_eth_open	q4/q4.c	/^int fake_eth_open(struct net_device *dev)$/;"	f	typeref:typename:int
+fake_eth_release	q4/q4.c	/^int fake_eth_release(struct net_device *dev)$/;"	f	typeref:typename:int
+fake_eth_xmit	q4/q4.c	/^int fake_eth_xmit(struct sk_buff *skb, struct net_device *ndev)$/;"	f	typeref:typename:int
+init_module	q1/q1.c	/^int init_module(void) {$/;"	f	typeref:typename:int
+list	q3/q3.c	/^	struct list_head list; \/* kernel's list structure *\/$/;"	m	struct:House	typeref:struct:list_head	file:
+module_a_get_house5	q3/q3.c	/^void module_a_get_house5(int *val) {$/;"	f	typeref:typename:void
+module_c_cal_all_area	q3/q3.c	/^int module_c_cal_all_area(int *val) {$/;"	f	typeref:typename:int
+module_d_insert_in_between	q3/q3.c	/^int module_d_insert_in_between(struct House *house, struct House *new_house) {$/;"	f	typeref:typename:int
+multiplication	q2/q2_multiply.c	/^static int multiplication(int numone, int numtwo) {$/;"	f	typeref:typename:int	file:
+my_netdev_ops	q4/q4.c	/^static const struct net_device_ops my_netdev_ops = {$/;"	v	typeref:typename:const struct net_device_ops	file:
+numone	q2/q2_head.c	/^static int numone = 420;$/;"	v	typeref:typename:int	file:
+numtwo	q2/q2_head.c	/^static int numtwo = 420;$/;"	v	typeref:typename:int	file:
+print_node	q3/q3.c	/^void print_node(struct House *house) {$/;"	f	typeref:typename:void
+q2_exit	q2/q2_head.c	/^static void __exit q2_exit(void)$/;"	f	typeref:typename:void __exit	file:
+q3_exit	q3/q3.c	/^void __exit q3_exit(void) {$/;"	f	typeref:typename:void __exit
+result	q2/q2_head.c	/^static int result = 0;$/;"	v	typeref:typename:int	file:
+result	q5/q5.c	/^    int result;$/;"	v	typeref:typename:int
+rtl8139_cleanup	q4/q4.c	/^void rtl8139_cleanup(void)$/;"	f	typeref:typename:void
+rtl8139_cleanup	q5/q5.c	/^void rtl8139_cleanup(void)$/;"	f	typeref:typename:void
+rtl8139_init_module	q4/q4.c	/^int rtl8139_init_module(void)$/;"	f	typeref:typename:int
+sn0	q4/q4.c	/^struct net_device *sn0;$/;"	v	typeref:struct:net_device *
+snull_devs	q5/q5.c	/^struct net_device *snull_devs[2];$/;"	v	typeref:struct:net_device * [2]
+start	q2/q2_head.c	/^static int __init start(void)$/;"	f	typeref:typename:int __init	file:
+start	q3/q3.c	/^static int __init start(void) {$/;"	f	typeref:typename:int __init	file:
+virtual_setup	q4/q4.c	/^static void virtual_setup(struct net_device *dev)$/;"	f	typeref:typename:void	file:
