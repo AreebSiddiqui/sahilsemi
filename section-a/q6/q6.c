@@ -45,6 +45,3 @@ printk("Work queue module exit: %s %d\n", __FUNCTION__,__LINE__);}
 module_init(my_init);
 module_exit(my_exit);
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("John Madieu <john.madieu@gmail.com> ");
-MODULE_DESCRIPTION("Shared workqueue");
