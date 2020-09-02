@@ -1,8 +1,8 @@
-cmd_/home/sahil/sahilsemi/section-a/q5/q5.o := gcc -Wp,-MD,/home/sahil/sahilsemi/section-a/q5/.q5.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -flive-patching=inline-clone -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -fcf-protection=none -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"q5"' -DKBUILD_MODNAME='"q5"' -c -o /home/sahil/sahilsemi/section-a/q5/q5.o /home/sahil/sahilsemi/section-a/q5/q5.c
+cmd_/home/sahil/Snull/snull/snull.o := gcc -Wp,-MD,/home/sahil/Snull/snull/.snull.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -flive-patching=inline-clone -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -fcf-protection=none -Wno-packed-not-aligned -O2 -I..  -DMODULE  -DKBUILD_BASENAME='"snull"' -DKBUILD_MODNAME='"snull"' -c -o /home/sahil/Snull/snull/snull.o /home/sahil/Snull/snull/snull.c
 
-source_/home/sahil/sahilsemi/section-a/q5/q5.o := /home/sahil/sahilsemi/section-a/q5/q5.c
+source_/home/sahil/Snull/snull/snull.o := /home/sahil/Snull/snull/snull.c
 
-deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
+deps_/home/sahil/Snull/snull/snull.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cpu/big/endian.h) \
     $(wildcard include/config/booger.h) \
@@ -16,18 +16,29 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/retpoline.h) \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  include/linux/kernel.h \
-    $(wildcard include/config/preempt/voluntary.h) \
-    $(wildcard include/config/debug/atomic/sleep.h) \
-    $(wildcard include/config/mmu.h) \
-    $(wildcard include/config/prove/locking.h) \
-    $(wildcard include/config/arch/has/refcount.h) \
-    $(wildcard include/config/panic/timeout.h) \
+  include/linux/module.h \
+    $(wildcard include/config/modules.h) \
+    $(wildcard include/config/sysfs.h) \
+    $(wildcard include/config/modules/tree/lookup.h) \
+    $(wildcard include/config/livepatch.h) \
+    $(wildcard include/config/unused/symbols.h) \
+    $(wildcard include/config/module/sig.h) \
+    $(wildcard include/config/generic/bug.h) \
+    $(wildcard include/config/kallsyms.h) \
+    $(wildcard include/config/smp.h) \
+    $(wildcard include/config/tracepoints.h) \
+    $(wildcard include/config/tree/srcu.h) \
+    $(wildcard include/config/bpf/events.h) \
+    $(wildcard include/config/jump/label.h) \
     $(wildcard include/config/tracing.h) \
+    $(wildcard include/config/event/tracing.h) \
     $(wildcard include/config/ftrace/mcount/record.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
+    $(wildcard include/config/module/unload.h) \
+    $(wildcard include/config/constructors.h) \
+    $(wildcard include/config/function/error/injection.h) \
+    $(wildcard include/config/strict/module/rwx.h) \
+  include/linux/list.h \
+    $(wildcard include/config/debug/list.h) \
   include/linux/types.h \
     $(wildcard include/config/have/uid16.h) \
     $(wildcard include/config/uid16.h) \
@@ -50,15 +61,28 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/x86/32.h) \
   arch/x86/include/uapi/asm/posix_types_64.h \
   include/uapi/asm-generic/posix_types.h \
+  include/linux/poison.h \
+    $(wildcard include/config/illegal/pointer/value.h) \
+    $(wildcard include/config/page/poisoning/zero.h) \
+  include/linux/const.h \
+  include/uapi/linux/const.h \
+  include/linux/kernel.h \
+    $(wildcard include/config/preempt/voluntary.h) \
+    $(wildcard include/config/debug/atomic/sleep.h) \
+    $(wildcard include/config/mmu.h) \
+    $(wildcard include/config/prove/locking.h) \
+    $(wildcard include/config/arch/has/refcount.h) \
+    $(wildcard include/config/panic/timeout.h) \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
   include/linux/linkage.h \
   include/linux/stringify.h \
   include/linux/export.h \
     $(wildcard include/config/modversions.h) \
     $(wildcard include/config/module/rel/crcs.h) \
     $(wildcard include/config/have/arch/prel32/relocations.h) \
-    $(wildcard include/config/modules.h) \
     $(wildcard include/config/trim/unused/ksyms.h) \
-    $(wildcard include/config/unused/symbols.h) \
   include/linux/compiler.h \
     $(wildcard include/config/trace/branch/profiling.h) \
     $(wildcard include/config/profile/all/branches.h) \
@@ -66,7 +90,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/kasan.h) \
   arch/x86/include/asm/barrier.h \
   arch/x86/include/asm/alternative.h \
-    $(wildcard include/config/smp.h) \
   arch/x86/include/asm/asm.h \
   arch/x86/include/asm/nops.h \
     $(wildcard include/config/mk7.h) \
@@ -78,8 +101,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/x86/alignment/16.h) \
   include/linux/bitops.h \
   include/linux/bits.h \
-  include/linux/const.h \
-  include/uapi/linux/const.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/rmwcc.h \
@@ -130,7 +151,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/dynamic/debug.h) \
   include/linux/init.h \
     $(wildcard include/config/strict/kernel/rwx.h) \
-    $(wildcard include/config/strict/module/rwx.h) \
   include/linux/kern_levels.h \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
@@ -141,37 +161,12 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/x86/internode/cache/shift.h) \
     $(wildcard include/config/x86/vsmp.h) \
   include/linux/dynamic_debug.h \
-    $(wildcard include/config/jump/label.h) \
   include/linux/jump_label.h \
     $(wildcard include/config/have/arch/jump/label/relative.h) \
   arch/x86/include/asm/jump_label.h \
   include/linux/build_bug.h \
   arch/x86/include/asm/div64.h \
   include/asm-generic/div64.h \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  arch/x86/include/generated/uapi/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
-  include/linux/module.h \
-    $(wildcard include/config/sysfs.h) \
-    $(wildcard include/config/modules/tree/lookup.h) \
-    $(wildcard include/config/livepatch.h) \
-    $(wildcard include/config/module/sig.h) \
-    $(wildcard include/config/generic/bug.h) \
-    $(wildcard include/config/kallsyms.h) \
-    $(wildcard include/config/tracepoints.h) \
-    $(wildcard include/config/tree/srcu.h) \
-    $(wildcard include/config/bpf/events.h) \
-    $(wildcard include/config/event/tracing.h) \
-    $(wildcard include/config/module/unload.h) \
-    $(wildcard include/config/constructors.h) \
-    $(wildcard include/config/function/error/injection.h) \
-  include/linux/list.h \
-    $(wildcard include/config/debug/list.h) \
-  include/linux/poison.h \
-    $(wildcard include/config/illegal/pointer/value.h) \
-    $(wildcard include/config/page/poisoning/zero.h) \
   include/linux/stat.h \
   arch/x86/include/uapi/asm/stat.h \
   include/uapi/linux/stat.h \
@@ -303,6 +298,9 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
   arch/x86/include/uapi/asm/sigcontext.h \
   arch/x86/include/asm/msr.h \
   arch/x86/include/asm/msr-index.h \
+  arch/x86/include/generated/uapi/asm/errno.h \
+  include/uapi/asm-generic/errno.h \
+  include/uapi/asm-generic/errno-base.h \
   arch/x86/include/asm/cpumask.h \
   include/linux/cpumask.h \
     $(wildcard include/config/cpumask/offstack.h) \
@@ -491,6 +489,8 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
   include/linux/completion.h \
   include/linux/uprobes.h \
     $(wildcard include/config/uprobes.h) \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
   arch/x86/include/asm/uprobes.h \
   include/linux/notifier.h \
   include/linux/mutex.h \
@@ -676,88 +676,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
   arch/x86/include/asm/orc_types.h \
-  include/linux/netdevice.h \
-    $(wildcard include/config/dcb.h) \
-    $(wildcard include/config/hyperv/net.h) \
-    $(wildcard include/config/wlan.h) \
-    $(wildcard include/config/ax25.h) \
-    $(wildcard include/config/mac80211/mesh.h) \
-    $(wildcard include/config/net/ipip.h) \
-    $(wildcard include/config/net/ipgre.h) \
-    $(wildcard include/config/ipv6/sit.h) \
-    $(wildcard include/config/ipv6/tunnel.h) \
-    $(wildcard include/config/rps.h) \
-    $(wildcard include/config/netpoll.h) \
-    $(wildcard include/config/xps.h) \
-    $(wildcard include/config/xdp/sockets.h) \
-    $(wildcard include/config/bql.h) \
-    $(wildcard include/config/rfs/accel.h) \
-    $(wildcard include/config/fcoe.h) \
-    $(wildcard include/config/xfrm/offload.h) \
-    $(wildcard include/config/net/poll/controller.h) \
-    $(wildcard include/config/libfcoe.h) \
-    $(wildcard include/config/wireless/ext.h) \
-    $(wildcard include/config/net/l3/master/dev.h) \
-    $(wildcard include/config/ipv6.h) \
-    $(wildcard include/config/tls/device.h) \
-    $(wildcard include/config/vlan/8021q.h) \
-    $(wildcard include/config/net/dsa.h) \
-    $(wildcard include/config/tipc.h) \
-    $(wildcard include/config/irda.h) \
-    $(wildcard include/config/atalk.h) \
-    $(wildcard include/config/decnet.h) \
-    $(wildcard include/config/mpls/routing.h) \
-    $(wildcard include/config/net/cls/act.h) \
-    $(wildcard include/config/netfilter/ingress.h) \
-    $(wildcard include/config/net/sched.h) \
-    $(wildcard include/config/garp.h) \
-    $(wildcard include/config/mrp.h) \
-    $(wildcard include/config/cgroup/net/prio.h) \
-    $(wildcard include/config/net/flow/limit.h) \
-  include/linux/delay.h \
-  arch/x86/include/asm/delay.h \
-  include/asm-generic/delay.h \
-  include/linux/prefetch.h \
-  include/linux/rculist.h \
-    $(wildcard include/config/prove/rcu/list.h) \
-  include/linux/dynamic_queue_limits.h \
-  include/linux/ethtool.h \
-  include/linux/compat.h \
-    $(wildcard include/config/arch/has/syscall/wrapper.h) \
-    $(wildcard include/config/compat/old/sigaction.h) \
-    $(wildcard include/config/odd/rt/sigaction.h) \
-  include/linux/sem.h \
-    $(wildcard include/config/sysvipc.h) \
-  include/uapi/linux/sem.h \
-  include/linux/ipc.h \
-  include/linux/rhashtable-types.h \
-  include/uapi/linux/ipc.h \
-  arch/x86/include/generated/uapi/asm/ipcbuf.h \
-  include/uapi/asm-generic/ipcbuf.h \
-  arch/x86/include/uapi/asm/sembuf.h \
-  include/linux/socket.h \
-  arch/x86/include/generated/uapi/asm/socket.h \
-  include/uapi/asm-generic/socket.h \
-  arch/x86/include/generated/uapi/asm/sockios.h \
-  include/uapi/asm-generic/sockios.h \
-  include/uapi/linux/sockios.h \
-  include/linux/uio.h \
-    $(wildcard include/config/arch/has/uaccess/mcsafe.h) \
-  include/crypto/hash.h \
-  include/linux/crypto.h \
-    $(wildcard include/config/crypto/stats.h) \
-  include/linux/slab.h \
-    $(wildcard include/config/debug/slab.h) \
-    $(wildcard include/config/failslab.h) \
-    $(wildcard include/config/memcg/kmem.h) \
-    $(wildcard include/config/have/hardened/usercopy/allocator.h) \
-    $(wildcard include/config/slab.h) \
-    $(wildcard include/config/slub.h) \
-    $(wildcard include/config/slob.h) \
-  include/linux/percpu-refcount.h \
-  include/linux/kasan.h \
-    $(wildcard include/config/kasan/generic.h) \
-  include/linux/uaccess.h \
   include/linux/sched.h \
     $(wildcard include/config/virt/cpu/accounting/native.h) \
     $(wildcard include/config/sched/info.h) \
@@ -776,6 +694,7 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/virt/cpu/accounting/gen.h) \
     $(wildcard include/config/posix/cputimers.h) \
     $(wildcard include/config/keys.h) \
+    $(wildcard include/config/sysvipc.h) \
     $(wildcard include/config/detect/hung/task.h) \
     $(wildcard include/config/audit.h) \
     $(wildcard include/config/auditsyscall.h) \
@@ -801,6 +720,16 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/debug/rseq.h) \
   include/uapi/linux/sched.h \
   include/linux/pid.h \
+  include/linux/rculist.h \
+    $(wildcard include/config/prove/rcu/list.h) \
+  include/linux/sem.h \
+  include/uapi/linux/sem.h \
+  include/linux/ipc.h \
+  include/linux/rhashtable-types.h \
+  include/uapi/linux/ipc.h \
+  arch/x86/include/generated/uapi/asm/ipcbuf.h \
+  include/uapi/asm-generic/ipcbuf.h \
+  arch/x86/include/uapi/asm/sembuf.h \
   include/linux/shm.h \
   include/uapi/linux/shm.h \
   include/uapi/asm-generic/hugetlb_encode.h \
@@ -854,15 +783,107 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/posix/timers.h) \
   include/linux/alarmtimer.h \
   include/uapi/linux/rseq.h \
+  include/linux/slab.h \
+    $(wildcard include/config/debug/slab.h) \
+    $(wildcard include/config/failslab.h) \
+    $(wildcard include/config/memcg/kmem.h) \
+    $(wildcard include/config/have/hardened/usercopy/allocator.h) \
+    $(wildcard include/config/slab.h) \
+    $(wildcard include/config/slub.h) \
+    $(wildcard include/config/slob.h) \
+  include/linux/percpu-refcount.h \
+  include/linux/kasan.h \
+    $(wildcard include/config/kasan/generic.h) \
+  include/linux/interrupt.h \
+    $(wildcard include/config/irq/forced/threading.h) \
+    $(wildcard include/config/generic/irq/probe.h) \
+    $(wildcard include/config/irq/timings.h) \
+  include/linux/irqreturn.h \
+  include/linux/irqnr.h \
+  include/uapi/linux/irqnr.h \
+  include/linux/hardirq.h \
+  include/linux/ftrace_irq.h \
+    $(wildcard include/config/ftrace/nmi/enter.h) \
+    $(wildcard include/config/hwlat/tracer.h) \
+  include/linux/vtime.h \
+    $(wildcard include/config/virt/cpu/accounting.h) \
+    $(wildcard include/config/irq/time/accounting.h) \
+  include/linux/context_tracking_state.h \
+    $(wildcard include/config/context/tracking.h) \
+  arch/x86/include/asm/irq.h \
+  arch/x86/include/asm/sections.h \
+  include/asm-generic/sections.h \
+  arch/x86/include/asm/extable.h \
+  include/linux/in.h \
+  include/uapi/linux/in.h \
+  include/uapi/linux/libc-compat.h \
+  include/linux/socket.h \
+  arch/x86/include/generated/uapi/asm/socket.h \
+  include/uapi/asm-generic/socket.h \
+  arch/x86/include/generated/uapi/asm/sockios.h \
+  include/uapi/asm-generic/sockios.h \
+  include/uapi/linux/sockios.h \
+  include/linux/uio.h \
+    $(wildcard include/config/arch/has/uaccess/mcsafe.h) \
+  include/crypto/hash.h \
+  include/linux/crypto.h \
+    $(wildcard include/config/crypto/stats.h) \
+  include/linux/uaccess.h \
   arch/x86/include/asm/uaccess.h \
     $(wildcard include/config/x86/intel/usercopy.h) \
   arch/x86/include/asm/smap.h \
-  arch/x86/include/asm/extable.h \
   arch/x86/include/asm/uaccess_64.h \
   include/uapi/linux/uio.h \
   include/uapi/linux/socket.h \
+  include/linux/netdevice.h \
+    $(wildcard include/config/dcb.h) \
+    $(wildcard include/config/hyperv/net.h) \
+    $(wildcard include/config/wlan.h) \
+    $(wildcard include/config/ax25.h) \
+    $(wildcard include/config/mac80211/mesh.h) \
+    $(wildcard include/config/net/ipip.h) \
+    $(wildcard include/config/net/ipgre.h) \
+    $(wildcard include/config/ipv6/sit.h) \
+    $(wildcard include/config/ipv6/tunnel.h) \
+    $(wildcard include/config/rps.h) \
+    $(wildcard include/config/netpoll.h) \
+    $(wildcard include/config/xps.h) \
+    $(wildcard include/config/xdp/sockets.h) \
+    $(wildcard include/config/bql.h) \
+    $(wildcard include/config/rfs/accel.h) \
+    $(wildcard include/config/fcoe.h) \
+    $(wildcard include/config/xfrm/offload.h) \
+    $(wildcard include/config/net/poll/controller.h) \
+    $(wildcard include/config/libfcoe.h) \
+    $(wildcard include/config/wireless/ext.h) \
+    $(wildcard include/config/net/l3/master/dev.h) \
+    $(wildcard include/config/ipv6.h) \
+    $(wildcard include/config/tls/device.h) \
+    $(wildcard include/config/vlan/8021q.h) \
+    $(wildcard include/config/net/dsa.h) \
+    $(wildcard include/config/tipc.h) \
+    $(wildcard include/config/irda.h) \
+    $(wildcard include/config/atalk.h) \
+    $(wildcard include/config/decnet.h) \
+    $(wildcard include/config/mpls/routing.h) \
+    $(wildcard include/config/net/cls/act.h) \
+    $(wildcard include/config/netfilter/ingress.h) \
+    $(wildcard include/config/net/sched.h) \
+    $(wildcard include/config/garp.h) \
+    $(wildcard include/config/mrp.h) \
+    $(wildcard include/config/cgroup/net/prio.h) \
+    $(wildcard include/config/net/flow/limit.h) \
+  include/linux/delay.h \
+  arch/x86/include/asm/delay.h \
+  include/asm-generic/delay.h \
+  include/linux/prefetch.h \
+  include/linux/dynamic_queue_limits.h \
+  include/linux/ethtool.h \
+  include/linux/compat.h \
+    $(wildcard include/config/arch/has/syscall/wrapper.h) \
+    $(wildcard include/config/compat/old/sigaction.h) \
+    $(wildcard include/config/odd/rt/sigaction.h) \
   include/uapi/linux/if.h \
-  include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/linux/fs.h \
     $(wildcard include/config/read/only/thp/for/fs.h) \
@@ -1017,8 +1038,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/arch/random.h) \
   include/linux/once.h \
   include/uapi/linux/random.h \
-  include/linux/irqnr.h \
-  include/uapi/linux/irqnr.h \
   arch/x86/include/asm/archrandom.h \
   include/uapi/linux/net.h \
   include/linux/textsearch.h \
@@ -1074,7 +1093,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
   include/linux/netdev_features.h \
   include/linux/sched/clock.h \
     $(wildcard include/config/have/unstable/sched/clock.h) \
-    $(wildcard include/config/irq/time/accounting.h) \
   include/net/flow_dissector.h \
   include/linux/in6.h \
   include/uapi/linux/in6.h \
@@ -1130,8 +1148,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/nf/defrag/ipv4.h) \
   include/linux/netfilter_defs.h \
   include/uapi/linux/netfilter.h \
-  include/linux/in.h \
-  include/uapi/linux/in.h \
   include/net/netns/x_tables.h \
     $(wildcard include/config/bridge/nf/ebtables.h) \
   include/net/netns/conntrack.h \
@@ -1181,22 +1197,6 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
     $(wildcard include/config/inotify/user.h) \
     $(wildcard include/config/persistent/keyrings.h) \
   include/linux/kernel_stat.h \
-  include/linux/interrupt.h \
-    $(wildcard include/config/irq/forced/threading.h) \
-    $(wildcard include/config/generic/irq/probe.h) \
-    $(wildcard include/config/irq/timings.h) \
-  include/linux/irqreturn.h \
-  include/linux/hardirq.h \
-  include/linux/ftrace_irq.h \
-    $(wildcard include/config/ftrace/nmi/enter.h) \
-    $(wildcard include/config/hwlat/tracer.h) \
-  include/linux/vtime.h \
-    $(wildcard include/config/virt/cpu/accounting.h) \
-  include/linux/context_tracking_state.h \
-    $(wildcard include/config/context/tracking.h) \
-  arch/x86/include/asm/irq.h \
-  arch/x86/include/asm/sections.h \
-  include/asm-generic/sections.h \
   include/linux/cgroup-defs.h \
   include/linux/bpf-cgroup.h \
   include/linux/bpf.h \
@@ -1252,19 +1252,109 @@ deps_/home/sahil/sahilsemi/section-a/q5/q5.o := \
   arch/x86/include/asm/unaligned.h \
   include/linux/unaligned/access_ok.h \
   include/linux/unaligned/generic.h \
-  include/linux/of.h \
-    $(wildcard include/config/of/dynamic.h) \
-    $(wildcard include/config/sparc.h) \
-    $(wildcard include/config/of/promtree.h) \
-    $(wildcard include/config/of/kobj.h) \
-    $(wildcard include/config/of/numa.h) \
-    $(wildcard include/config/of/overlay.h) \
-  include/linux/mod_devicetable.h \
-  include/linux/property.h \
-  include/linux/platform_device.h \
-    $(wildcard include/config/suspend.h) \
-    $(wildcard include/config/hibernate/callbacks.h) \
+  include/linux/ip.h \
+  include/uapi/linux/ip.h \
+  include/linux/tcp.h \
+    $(wildcard include/config/smc.h) \
+    $(wildcard include/config/bpf.h) \
+    $(wildcard include/config/tcp/md5sig.h) \
+  include/linux/win_minmax.h \
+  include/net/sock.h \
+    $(wildcard include/config/sock/validate/xmit.h) \
+  include/linux/page_counter.h \
+  include/linux/memcontrol.h \
+    $(wildcard include/config/memcg/swap.h) \
+  include/linux/vmpressure.h \
+  include/linux/eventfd.h \
+    $(wildcard include/config/eventfd.h) \
+  include/linux/writeback.h \
+  include/linux/flex_proportions.h \
+  include/linux/backing-dev-defs.h \
+    $(wildcard include/config/debug/fs.h) \
+  include/linux/blk_types.h \
+    $(wildcard include/config/blk/cgroup/iocost.h) \
+    $(wildcard include/config/blk/dev/integrity.h) \
+  include/linux/blk-cgroup.h \
+    $(wildcard include/config/blk/dev/throttling.h) \
+  include/linux/blkdev.h \
+    $(wildcard include/config/blk/rq/alloc/time.h) \
+    $(wildcard include/config/blk/wbt.h) \
+    $(wildcard include/config/blk/dev/zoned.h) \
+    $(wildcard include/config/blk/dev/bsg.h) \
+    $(wildcard include/config/blk/debug/fs.h) \
+  include/uapi/linux/major.h \
+  include/linux/genhd.h \
+    $(wildcard include/config/fail/make/request.h) \
+    $(wildcard include/config/solaris/x86/partition.h) \
+    $(wildcard include/config/bsd/disklabel.h) \
+    $(wildcard include/config/unixware/disklabel.h) \
+    $(wildcard include/config/minix/subpartition.h) \
+  arch/x86/include/asm/local.h \
+  include/linux/pagemap.h \
+  include/linux/highmem.h \
+  arch/x86/include/asm/cacheflush.h \
+  include/asm-generic/cacheflush.h \
+  include/linux/hugetlb_inline.h \
+  include/linux/mempool.h \
+  include/linux/bio.h \
+  include/linux/bsg.h \
+  include/uapi/linux/bsg.h \
+  include/uapi/linux/blkzoned.h \
+  include/linux/elevator.h \
+  include/linux/filter.h \
+    $(wildcard include/config/bpf/jit/always/on.h) \
+    $(wildcard include/config/bpf/jit.h) \
+    $(wildcard include/config/have/ebpf/jit.h) \
+  include/linux/cryptohash.h \
+  include/linux/set_memory.h \
+    $(wildcard include/config/arch/has/set/memory.h) \
+  arch/x86/include/asm/set_memory.h \
+  include/asm-generic/set_memory.h \
+  include/linux/kallsyms.h \
+    $(wildcard include/config/kallsyms/all.h) \
+  include/linux/if_vlan.h \
+  include/linux/rtnetlink.h \
+    $(wildcard include/config/net/ingress.h) \
+    $(wildcard include/config/net/egress.h) \
+  include/uapi/linux/rtnetlink.h \
+  include/uapi/linux/if_addr.h \
+  include/uapi/linux/if_vlan.h \
+  include/net/sch_generic.h \
+  include/uapi/linux/pkt_cls.h \
+  include/net/gen_stats.h \
+  include/uapi/linux/gen_stats.h \
+  include/net/rtnetlink.h \
+  include/net/netlink.h \
+  include/net/flow_offload.h \
+  include/linux/rhashtable.h \
+  include/linux/jhash.h \
+  include/linux/unaligned/packed_struct.h \
+  include/uapi/linux/filter.h \
+  include/linux/rculist_nulls.h \
+  include/linux/poll.h \
+  include/uapi/linux/poll.h \
+  arch/x86/include/generated/uapi/asm/poll.h \
+  include/uapi/asm-generic/poll.h \
+  include/uapi/linux/eventpoll.h \
+  include/net/dst.h \
+  include/net/neighbour.h \
+  include/net/tcp_states.h \
+  include/uapi/linux/net_tstamp.h \
+  include/net/smc.h \
+  include/net/l3mdev.h \
+  include/net/fib_rules.h \
+  include/uapi/linux/fib_rules.h \
+  include/net/fib_notifier.h \
+  include/net/inet_connection_sock.h \
+  include/net/inet_sock.h \
+  include/net/request_sock.h \
+  include/net/netns/hash.h \
+  include/net/inet_timewait_sock.h \
+  include/net/timewait_sock.h \
+  include/uapi/linux/tcp.h \
+  include/generated/uapi/linux/version.h \
+  /home/sahil/Snull/snull/snull.h \
 
-/home/sahil/sahilsemi/section-a/q5/q5.o: $(deps_/home/sahil/sahilsemi/section-a/q5/q5.o)
+/home/sahil/Snull/snull/snull.o: $(deps_/home/sahil/Snull/snull/snull.o)
 
-$(deps_/home/sahil/sahilsemi/section-a/q5/q5.o):
+$(deps_/home/sahil/Snull/snull/snull.o):

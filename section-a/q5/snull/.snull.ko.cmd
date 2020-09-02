@@ -1,0 +1,1 @@
+cmd_/home/sahil/Snull/snull/snull.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/sahil/Snull/snull/snull.ko /home/sahil/Snull/snull/snull.o /home/sahil/Snull/snull/snull.mod.o;  true
