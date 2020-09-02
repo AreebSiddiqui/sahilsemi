@@ -67,3 +67,8 @@ https://www.youtube.com/watch?v=cEcNLfXEaZs
 
 
 ![screenshot](section-a/q5/images/q5-ref.png)
+
+References-Question6:
+ - Linux device drive by Jonathan Chapter#17.
+ - Slideshare: https://ufal.mff.cuni.cz/~jernej/2018/docs/predavanja15.pdf
+ - Snull Driver Module: https://github.com/martinezjavier/ldd3/blob/master/snull/snull.c
